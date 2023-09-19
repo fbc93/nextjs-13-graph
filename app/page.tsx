@@ -7,8 +7,8 @@ export default function Home() {
     <main id="wrap">
       <div className="grap-container">
         <div className="marker"></div>
-        <BGChart options={{}} series={[]} />
-        <MainChart options={{}} series={[]} />
+        <BGChart />
+        <MainChart />
 
         <div className="label-container">
           <div className="label">0</div>

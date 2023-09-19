@@ -3,8 +3,8 @@ import React from 'react';
 import Chart from 'react-apexcharts'
 
 interface State {
-  options: {};
-  series: number[];
+  options?: {};
+  series?: number[];
 }
 
 class MainChart extends React.Component<State> {
